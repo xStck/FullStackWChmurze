@@ -101,18 +101,18 @@ status: {}
 
 - Weryfikacja konfiguracji przestrzeni nazw za pomocą polecenia:
   _kubectl describe namespace lab4_
-  ![](Lab4Sprawozdanie/weryfikacjaNamespace.jpg)
+  ![](weryfikacjaNamespace.jpg)
   <br>
 - Weryfikacja utworzonego deployment-u za pomocą polecenia:
   _kubectl describe deployment -n lab4 restrictednginx_
-  ![](Lab4Sprawozdanie/weryfikacjaDeployment.png)
+  ![](weryfikacjaDeployment.png)
   <br>
 - Weryfikacja działania utworzonych podów za pomocą polecenia:
   _kubectl get pods -n lab4_
-  ![](Lab4Sprawozdanie/weryfikacjaPodow.png)
+  ![](weryfikacjaPodow.png)
   <br>
 - Weryfikacja limitów podów za pomocą polecenia:
   _kubectl describe pod -n lab4_
-  ![](Lab4Sprawozdanie/weryfikacjaPod1.png)
-  ![](Lab4Sprawozdanie/weryfikacjaPod2.png)
-  ![](Lab4Sprawozdanie/weryfikacjaPod3.png)
+  ![](weryfikacjaPod1.png)
+  ![](weryfikacjaPod2.png)
+  ![](weryfikacjaPod3.png)
