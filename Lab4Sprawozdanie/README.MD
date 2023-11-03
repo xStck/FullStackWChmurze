@@ -114,6 +114,7 @@ status: {}
 - Weryfikacja limitów podów za pomocą polecenia:
   _kubectl describe pod -n lab4_
   (fragmenty)
+
   **Pod I**
   ![](weryfikacjaPod1.png)
   **Pod II**
